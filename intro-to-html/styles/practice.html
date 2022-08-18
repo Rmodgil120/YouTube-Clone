@@ -1,0 +1,39 @@
+<style>
+.stretch{
+    background-color: green;
+    color: white;
+    transition: padding-right 0.30s, padding-bottom 0.30s;
+    border-radius: 5px;
+    border-color: green;
+    border-style: solid;
+}
+.stretch:hover{
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.stretch:active{
+    background-color: blue;
+    border-color: blue;
+}
+.one{
+    background-color: green;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: padding-left 0.3s, padding-right 0.3s,box-shadow 0.25s;
+    border-color: green;
+    border-style: solid;
+    border-radius: 5px;
+}
+.one:hover{
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.15);
+}
+</style>
+<button class="stretch">
+    stretch
+</button>
+<button class="one">
+    one
+</button>
